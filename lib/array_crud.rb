@@ -7,16 +7,11 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  newArr = []
-  var = 2
-  newArr << var
-  return newArr
+  array << element
 end
 
 def add_element_to_start_of_array(array, element)
-  newArr = []
-  newVar = 33
-  newArr.unshift(newVar)
+  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
